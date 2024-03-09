@@ -1,0 +1,145 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient( to top right, #1B3C73,#FBA834)
+}
+
+.image-container {
+    position: relative;
+    width: 290px;
+    height: 450px; /* Set to the image's height */
+
+    margin: 0 auto; 
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+   margin-bottom: 30px;
+   
+ border-radius: 10px;
+
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 19px;
+     
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FCDC2A;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity .5s ease;
+}
+
+.image-container:hover img {
+    opacity: 0.7;
+}
+
+.image-container:hover .button {
+    opacity: 1;
+}
+
+  #ONE{
+   font-size: 27px;
+
+
+
+font-family: "Black Ops One",
+system-ui;
+font-weight: 400;
+font-style: normal;
+color: white;
+
+padding-top: 10px;
+
+}
+
+#one{
+  background:#555872;
+  margin-top: -30px;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+  height: 60px;
+  box-shadow: 1px 10px 20px rgba(21, 40, 244, 0.24);
+  width: 100%;
+}
+
+
+
+body{
+  margin: 0px;
+     background: #25262E;
+}
+
+.ios{
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 20px;
+  color: white;
+  font-family: "Anta", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+
+
+
+  
+h3::selection{
+  background: #FF7D18;
+  color: white;
+}
+p::selection{
+  background: #FF7D18;
+  color: white;
+}
+h2::selection{
+  background: #FF7D18;
+  color: white;
+}
+h2::selection{
+  background: #FF7D18;
+  color: white;
+}
+
+
+
+.b1{
+  margin-top: 20px;
+  display: inline-block;
+  background: #4A4A4A;
+  border: solid 2px transparent;
+  border-radius: 6px;
+  color: #8C8C8C;
+  
+  
+}
+.b11{
+  margin-top: 20px;
+  display: inline-block;
+  background: #4A4A4A;
+  border: solid 2px transparent;
+  border-radius: 6px;
+  color: #8C8C8C;
+  margin-right: 4px;
+  height: 25px;
+  
+}
+.parent{
+  display: flex;
+  justify-content: end;
+  
+  
+}
